@@ -6,3 +6,6 @@ Note that Simple Androids is its own mod, and not related to Android tiers. Simp
 
 
 Requires De-Generalize Work (https://steamcommunity.com/sharedfiles/filedetails/?id=2011655761) and Humanoid Alien Races (https://steamcommunity.com/sharedfiles/filedetails/?id=839005762)
+
+
+RJW patch request by a "good friend"
