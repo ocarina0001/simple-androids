@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Abstract="True" Name="OKA_AndroidPawnKindBase">
+        <combatPower>30</combatPower>
+        <isFighter>false</isFighter>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>0~0</apparelMoney>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <techHediffsChance>0</techHediffsChance>
+        <techHediffsMoney>0~0</techHediffsMoney>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>0~0</initialResistanceRange>
+        <defaultFactionType>PlayerColony</defaultFactionType>
+        <backstoryFiltersOverride>
+          <li>
+              <categories>
+                  <li>OKA_AndroidBackstories</li>
+              </categories>
+          </li>
+        </backstoryFiltersOverride>
+      </PawnKindDef>
+    
+      <PawnKindDef ParentName="OKA_AndroidPawnKindBase">
+        <defName>OKA_RankOneAndroid</defName>
+        <label>R1 android</label>
+        <race>OKA_RankOneAndroidRace</race>
+      </PawnKindDef>
+
+      <PawnKindDef ParentName="OKA_AndroidPawnKindBase">
+        <defName>OKA_RankTwoAndroid</defName>
+        <label>R2 android</label>
+        <race>OKA_RankTwoAndroidRace</race>
+      </PawnKindDef>
+
+      <PawnKindDef ParentName="OKA_AndroidPawnKindBase">
+        <defName>OKA_RankThreeAndroid</defName>
+        <label>R3 android</label>
+        <race>OKA_RankThreeAndroidRace</race>
+      </PawnKindDef>
+
+      <PawnKindDef ParentName="OKA_AndroidPawnKindBase">
+        <defName>OKA_RankFourAndroid</defName>
+        <label>R4 android</label>
+        <race>OKA_RankFourAndroidRace</race>
+      </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<loadFolders>
+    <v1.3>
+        <li>/</li>
+        <li IfModActive="rim.job.world">RimJobWorld</li>
+    </v1.3>
+</loadFolders>

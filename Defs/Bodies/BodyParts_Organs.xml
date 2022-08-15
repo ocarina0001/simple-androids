@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+      <BodyPartDef>
+        <defName>OKA_CoolantPump</defName>
+        <label>coolant pump</label>
+        <hitPoints>15</hitPoints>
+        <bleedRate>5</bleedRate>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>BloodPumpingSource</li>
+        </tags>
+        <spawnThingOnRemoved>OKA_CoolantPump</spawnThingOnRemoved>
+      </BodyPartDef>
+    
+      <BodyPartDef>
+        <defName>OKA_OxygenDiffuser</defName>
+        <label>diffuser</label>
+        <hitPoints>15</hitPoints>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>BreathingSource</li>
+        </tags>
+        <spawnThingOnRemoved>OKA_OxygenDiffuser</spawnThingOnRemoved>
+      </BodyPartDef>
+    
+      <BodyPartDef>
+        <defName>OKA_WasteFilter</defName>
+        <label>filter</label>
+        <hitPoints>15</hitPoints>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>BloodFiltrationKidney</li>
+        </tags>
+        <spawnThingOnRemoved>OKA_WasteFilter</spawnThingOnRemoved>
+      </BodyPartDef>
+    
+      <BodyPartDef>
+        <defName>OKA_Regulator</defName>
+        <label>regulator</label>
+        <hitPoints>20</hitPoints>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>BloodFiltrationLiver</li>
+          <li>MetabolismSource</li>
+        </tags>
+        <spawnThingOnRemoved>OKA_Regulator</spawnThingOnRemoved>
+      </BodyPartDef>
+    
+      <BodyPartDef>
+        <defName>OKA_BiofuelRefiner</defName>
+        <label>biofuel refiner</label>
+        <hitPoints>20</hitPoints>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>MetabolismSource</li>
+        </tags>
+        <spawnThingOnRemoved>OKA_BiofuelRefiner</spawnThingOnRemoved>
+      </BodyPartDef>
+
+      <BodyPartDef>
+        <defName>OKA_R1R2CPU</defName>
+        <label>CPU</label>
+        <hitPoints>10</hitPoints>
+        <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+        <delicate>true</delicate>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>ConsciousnessSource</li>
+        </tags>
+        <!--spawnThingOnRemoved>OKA_R1R2CPU</spawnThingOnRemoved-->
+      </BodyPartDef>
+
+      <BodyPartDef>
+        <defName>OKA_R3R4CPU</defName>
+        <label>CPU</label>
+        <hitPoints>10</hitPoints>
+        <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+        <delicate>true</delicate>
+        <skinCovered>false</skinCovered>
+        <tags>
+          <li>ConsciousnessSource</li>
+        </tags>
+        <!--spawnThingOnRemoved>OKA_R3R4CPU</spawnThingOnRemoved-->
+      </BodyPartDef>
+
+      <BodyPartDef>
+        <defName>OKA_LightReceptor</defName>
+        <label>light receptor</label>
+        <hitPoints>10</hitPoints>
+        <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+        <delicate>true</delicate>
+        <skinCovered>false</skinCovered>
+        <canScarify>true</canScarify>
+        <socketed>true</socketed>
+        <beautyRelated>true</beautyRelated>
+        <tags>
+          <li>SightSource</li>
+        </tags>
+        <hitChanceFactors>
+          <li>
+            <key>Blunt</key>
+            <value>0</value>
+          </li>
+        </hitChanceFactors>
+        <spawnThingOnRemoved>OKA_LightReceptor</spawnThingOnRemoved>
+      </BodyPartDef>
+
+      <BodyPartDef>
+        <defName>OKA_SoundReceiver</defName>
+        <label>receiver</label>
+        <hitPoints>12</hitPoints>
+        <frostbiteVulnerability>5</frostbiteVulnerability>
+        <skinCovered>true</skinCovered>
+        <beautyRelated>true</beautyRelated>
+        <tags>
+          <li>HearingSource</li>
+        </tags>
+        <spawnThingOnRemoved>OKA_SoundReceiver</spawnThingOnRemoved>
+      </BodyPartDef>
+
+      <BodyPartDef>
+        <defName>OKA_UpgradeSlot</defName>
+        <label>upgrade slot</label>
+        <hitPoints>20</hitPoints>
+        <skinCovered>false</skinCovered>
+        <canSuggestAmputation>false</canSuggestAmputation>
+      </BodyPartDef>
+
+</Defs>

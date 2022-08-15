@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="OKA_AndroidBodyPartBase" ParentName="BodyPartBase" Abstract="True">
+        <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.80</drawSize>
+            <color>(255,191,0)</color>
+        </graphicData>
+        <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_CoolantPump</defName>
+        <label>coolant pump</label>
+        <description>The heart of an android. Pumps coolant.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallCoolantPump</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_OxygenDiffuser</defName>
+        <label>oxygen diffuser</label>
+        <description>The lung of an android. Diffuses oxygen into energy. An android requires at least one to operate.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallOxygenDiffuser</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>200</MarketValue>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_WasteFilter</defName>
+        <label>waste filter</label>
+        <description>The kidney of an android. Filters out any waste from the biofuel refiner or coolant.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallWasteFilter</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>125</MarketValue>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_Regulator</defName>
+        <label>regulator</label>
+        <description>The liver of an android.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallRegulator</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>250</MarketValue>
+            <Mass>3</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_BiofuelRefiner</defName>
+        <label>biofuel refiner</label>
+        <description>The stomach of an android.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallBiofuelRefiner</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>200</MarketValue>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_SoundReceiver</defName>
+        <label>sound receiver</label>
+        <description>The ear of an android.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallSoundReceiver</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_LightReceptor</defName>
+        <label>light receptor</label>
+        <description>The eye of an android.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallLightReceptor</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!--ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_R1R2CPU</defName>
+        <label>CPUv1</label>
+        <description>The brain of an android, typically rank one or two.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallR1R2CPU</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>600</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidBodyPartBase">
+        <defName>OKA_R3R4CPU</defName>
+        <label>CPUv2</label>
+        <description>The brain of an android, typically rank three or four.</description>
+        <descriptionHyperlinks><RecipeDef>OKA_InstallR3R4CPU</RecipeDef></descriptionHyperlinks>
+        <statBases>
+            <MarketValue>800</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+    </ThingDef-->
+
+</Defs>

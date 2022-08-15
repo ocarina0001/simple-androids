@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <rjw.RaceGroupDef>
+        <defName>OKA_R1R2AndroidRaceGroupDef</defName>
+        <raceNames>
+            <li>OKA_RankOneAndroidRace</li>
+            <li>OKA_RankTwoAndroidRace</li>
+        </raceNames>
+        <anuses>
+            <li>HydraulicAnus</li>
+        </anuses>
+        <femaleBreasts>
+            <li>HydraulicBreasts</li>
+        </femaleBreasts>
+        <maleBreasts>
+            <li>HydraulicBreasts</li>
+        </maleBreasts>
+        <femaleGenitals>
+            <li>HydraulicVagina</li>
+        </femaleGenitals>
+        <maleGenitals>
+            <li>HydraulicPenis</li>
+        </maleGenitals>
+        <tags>
+            <li>Robot</li>
+        </tags>
+        <raceSexDrive>0.5</raceSexDrive>
+        <hasSingleGender>false</hasSingleGender>
+        <hasSexNeed>true</hasSexNeed>
+        <hasFertility>true</hasFertility>
+        <hasPregnancy>true</hasPregnancy>
+    </rjw.RaceGroupDef>
+
+    <rjw.RaceGroupDef>
+        <defName>OKA_R3R4AndroidRaceGroupDef</defName>
+        <raceNames>
+            <li>OKA_RankThreeAndroidRace</li>
+            <li>OKA_RankFourAndroidRace</li>
+        </raceNames>
+        <anuses>
+            <li>BionicAnus</li>
+        </anuses>
+        <femaleBreasts>
+            <li>BionicBreasts</li>
+        </femaleBreasts>
+        <maleBreasts>
+            <li>BionicBreasts</li>
+        </maleBreasts>
+        <femaleGenitals>
+            <li>BionicVagina</li>
+        </femaleGenitals>
+        <maleGenitals>
+            <li>BionicPenis</li>
+        </maleGenitals>
+        <tags>
+            <li>Robot</li>
+        </tags>
+        <raceSexDrive>0.65</raceSexDrive>
+        <hasSingleGender>false</hasSingleGender>
+        <hasSexNeed>true</hasSexNeed>
+        <hasFertility>true</hasFertility>
+        <hasPregnancy>true</hasPregnancy>
+    </rjw.RaceGroupDef>
+
+</Defs>

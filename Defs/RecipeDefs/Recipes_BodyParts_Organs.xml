@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef Name="OKA_InstallAndroidBodyPartBase" ParentName="SurgeryInstallBodyPartNaturalBase" Abstract="True">
+        <recipeUsers>
+            <li>OKA_RankOneAndroidRace</li>
+            <li>OKA_RankTwoAndroidRace</li>
+            <li>OKA_RankThreeAndroidRace</li>
+            <li>OKA_RankFourAndroidRace</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallCoolantPump</defName>
+        <label>install coolant pump</label>
+        <description>Install a coolant pump.</description>
+        <descriptionHyperlinks><ThingDef>OKA_CoolantPump</ThingDef></descriptionHyperlinks>
+        <jobString>Installing coolant pump.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_CoolantPump</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_CoolantPump</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_CoolantPump</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallOxygenDiffuser</defName>
+        <label>install oxygen diffuser</label>
+        <description>Install a oxygen diffuser.</description>
+        <descriptionHyperlinks><ThingDef>OKA_OxygenDiffuser</ThingDef></descriptionHyperlinks>
+        <jobString>Installing oxygen diffuser.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_OxygenDiffuser</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_OxygenDiffuser</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_OxygenDiffuser</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallWasteFilter</defName>
+        <label>install waste filter</label>
+        <description>Install a waste filter.</description>
+        <descriptionHyperlinks><ThingDef>OKA_WasteFilter</ThingDef></descriptionHyperlinks>
+        <jobString>Installing waste filter.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_WasteFilter</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_WasteFilter</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_WasteFilter</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallRegulator</defName>
+        <label>install regulator</label>
+        <description>Install a regulator.</description>
+        <descriptionHyperlinks><ThingDef>OKA_Regulator</ThingDef></descriptionHyperlinks>
+        <jobString>Installing regulator.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_Regulator</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_Regulator</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_Regulator</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallBiofuelRefiner</defName>
+        <label>install biofuel refiner</label>
+        <description>Install a biofuel refiner.</description>
+        <descriptionHyperlinks><ThingDef>OKA_BiofuelRefiner</ThingDef></descriptionHyperlinks>
+        <jobString>Installing biofuel refiner.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_BiofuelRefiner</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_BiofuelRefiner</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_BiofuelRefiner</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallSoundReceiver</defName>
+        <label>install sound receiver</label>
+        <description>Install a sound receiver.</description>
+        <descriptionHyperlinks><ThingDef>OKA_SoundReceiver</ThingDef></descriptionHyperlinks>
+        <jobString>Installing sound receiver.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_SoundReceiver</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_SoundReceiver</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_SoundReceiver</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallLightReceptor</defName>
+        <label>install light receptor</label>
+        <description>Install a light receptor.</description>
+        <descriptionHyperlinks><ThingDef>OKA_LightReceptor</ThingDef></descriptionHyperlinks>
+        <jobString>Installing light receptor.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_LightReceptor</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_LightReceptor</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_LightReceptor</li>
+        </appliedOnFixedBodyParts>
+    </RecipeDef>
+
+    <!--RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallR1R2CPU</defName>
+        <label>install CPUv1</label>
+        <description>Install a CPUv1.</description>
+        <descriptionHyperlinks><ThingDef>OKA_R1R2CPU</ThingDef></descriptionHyperlinks>
+        <jobString>Installing CPUv1.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_R1R2CPU</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_R1R2CPU</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_R1R2CPU</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_R1R2CPUHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidBodyPartBase">
+        <defName>OKA_InstallR3R4CPU</defName>
+        <label>install CPUv2</label>
+        <description>Install a CPUv2.</description>
+        <descriptionHyperlinks><ThingDef>OKA_R3R4CPU</ThingDef></descriptionHyperlinks>
+        <jobString>Installing CPUv2.</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_R3R4CPU</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_R3R4CPU</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_R3R4CPU</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_R3R4CPUHediff</addsHediff>
+    </RecipeDef-->
+
+</Defs>

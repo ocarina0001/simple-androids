@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>OKA_AndroidTrait</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+          <li>
+            <label>programmed happiness</label>
+            <description>[PAWN_nameDef]'s CPU provides a large programmed happiness.</description>
+            <degree>2</degree>
+          </li>
+          <li>
+            <label>programmed happiness</label>
+            <description>[PAWN_nameDef]'s CPU provides a programmed happiness.</description>
+            <degree>1</degree>
+          </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

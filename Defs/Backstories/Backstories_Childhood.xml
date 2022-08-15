@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AlienRace.BackstoryDef ParentName="OKA_AndroidChildhood">
+        <defName>OKA_CraftedAndroidAlpha</defName>
+        <spawnCategories>
+            <li>OKA_AndroidBackstories</li>
+        </spawnCategories>
+    </AlienRace.BackstoryDef>
+
+</Defs>

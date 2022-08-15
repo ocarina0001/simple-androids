@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef Name="OKA_InstallAndroidUpgradeDrive" ParentName="SurgeryInstallImplantBase" Abstract="True">
+      <recipeUsers>
+        <li>OKA_RankOneAndroidRace</li>
+        <li>OKA_RankTwoAndroidRace</li>
+        <li>OKA_RankThreeAndroidRace</li>
+        <li>OKA_RankFourAndroidRace</li>
+      </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallAnimalUpgradeDrive</defName>
+        <label>install upgrade drive (animals)</label>
+        <description>Install upgrade drive (animals).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_AnimalUpgradeDrive</ThingDef>
+          <HediffDef>OKA_AnimalUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (animals).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_AnimalUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_AnimalUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_AnimalUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+    
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallArtisticUpgradeDrive</defName>
+        <label>install upgrade drive (artistic)</label>
+        <description>Install upgrade drive (artistic).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_ArtisticUpgradeDrive</ThingDef>
+          <HediffDef>OKA_ArtisticUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (artistic).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_ArtisticUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_ArtisticUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_ArtisticUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallConstructionUpgradeDrive</defName>
+        <label>install upgrade drive (construction)</label>
+        <description>Install upgrade drive (construction).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_ConstructionUpgradeDrive</ThingDef>
+          <HediffDef>OKA_ConstructionUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (construction).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_ConstructionUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_ConstructionUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_ConstructionUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallCookingUpgradeDrive</defName>
+        <label>install upgrade drive (cooking)</label>
+        <description>Install upgrade drive (cooking).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_CookingUpgradeDrive</ThingDef>
+          <HediffDef>OKA_CookingUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (cooking).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_CookingUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_CookingUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_CookingUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallCraftingUpgradeDrive</defName>
+        <label>install upgrade drive (crafting)</label>
+        <description>Install upgrade drive (crafting).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_CraftingUpgradeDrive</ThingDef>
+          <HediffDef>OKA_CraftingUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (crafting).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_CraftingUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_CraftingUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_CraftingUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallMedicalUpgradeDrive</defName>
+        <label>install upgrade drive (medical)</label>
+        <description>Install upgrade drive (medical).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_MedicalUpgradeDrive</ThingDef>
+          <HediffDef>OKA_MedicalUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (medical).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_MedicalUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_MedicalUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_MedicalUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallMeleeUpgradeDrive</defName>
+        <label>install upgrade drive (melee)</label>
+        <description>Install upgrade drive (melee).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_MeleeUpgradeDrive</ThingDef>
+          <HediffDef>OKA_MeleeUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (melee).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_MeleeUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_MeleeUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_MeleeUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallMiningUpgradeDrive</defName>
+        <label>install upgrade drive (mining)</label>
+        <description>Install upgrade drive (mining).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_MiningUpgradeDrive</ThingDef>
+          <HediffDef>OKA_MiningUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (mining).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_MiningUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_MiningUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_MiningUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallIntellectualUpgradeDrive</defName>
+        <label>install upgrade drive (intellectual)</label>
+        <description>Install upgrade drive (intellectual).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_IntellectualUpgradeDrive</ThingDef>
+          <HediffDef>OKA_IntellectualUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (intellectual).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_IntellectualUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_IntellectualUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_IntellectualUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallPlantsUpgradeDrive</defName>
+        <label>install upgrade drive (plants)</label>
+        <description>Install upgrade drive (plants).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_PlantsUpgradeDrive</ThingDef>
+          <HediffDef>OKA_PlantsUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (plants).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_PlantsUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_PlantsUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_PlantsUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallShootingUpgradeDrive</defName>
+        <label>install upgrade drive (shooting)</label>
+        <description>Install upgrade drive (shooting).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_ShootingUpgradeDrive</ThingDef>
+          <HediffDef>OKA_ShootingUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (shooting).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_ShootingUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_ShootingUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_ShootingUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="OKA_InstallAndroidUpgradeDrive">
+        <defName>OKA_InstallSocialUpgradeDrive</defName>
+        <label>install upgrade drive (social)</label>
+        <description>Install upgrade drive (social).</description>
+        <descriptionHyperlinks>
+          <ThingDef>OKA_SocialUpgradeDrive</ThingDef>
+          <HediffDef>OKA_SocialUpgradeDriveHediff</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing upgrade drive (social).</jobString>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>OKA_SocialUpgradeDrive</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>OKA_SocialUpgradeDrive</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+          <li>OKA_UpgradeSlot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>OKA_SocialUpgradeDriveHediff</addsHediff>
+    </RecipeDef>
+
+</Defs>

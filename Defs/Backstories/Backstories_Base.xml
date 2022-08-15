@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AlienRace.BackstoryDef Name="OKA_AndroidBackstoryDefBase" Abstract="True">
+        <skillGains>
+            <li>
+                <defName>Construction</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Plants</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Intellectual</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Mining</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Shooting</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Melee</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Social</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Animals</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Cooking</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Medicine</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Artistic</defName>
+                <amount>-20</amount>
+            </li>
+            <li>
+                <defName>Crafting</defName>
+                <amount>-20</amount>
+            </li>
+        </skillGains>
+    </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef Name="OKA_AndroidAdulthood" ParentName="OKA_AndroidBackstoryDefBase" Abstract="True">
+        <baseDescription>[PAWN_nameDef] is residing on a RimWorld.</baseDescription>
+        <title>android</title>
+        <titleShort>android</titleShort>
+        <slot>Adulthood</slot>
+    </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef Name="OKA_AndroidChildhood" ParentName="OKA_AndroidBackstoryDefBase" Abstract="True">
+        <baseDescription>[PAWN_nameDef] was created on a RimWorld, with an uncertain future.</baseDescription>
+        <title>crafted android</title>
+        <titleShort>crafted</titleShort>
+        <slot>Childhood</slot>
+    </AlienRace.BackstoryDef>
+
+</Defs>

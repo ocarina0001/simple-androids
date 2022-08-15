@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OKA_HundredAndroidThought</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+          <li>OKA_AndroidTrait</li>
+        </requiredTraits>
+        <requiredTraitsDegree>2</requiredTraitsDegree>
+        <stages>
+            <li>
+                <label>programmed happiness</label>
+                <description>public float baseMoodEffect 100;</description>
+                <baseMoodEffect>100</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OKA_ThirtyAndroidThought</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraitsDegree>1</requiredTraitsDegree>
+        <requiredTraits>
+          <li>OKA_AndroidTrait</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>programmed happiness</label>
+                <description>public float baseMoodEffect 30;</description>
+                <baseMoodEffect>30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    
+    <ThoughtDef>
+        <defName>OKA_ButcheredAndroid</defName>
+        <durationDays>0.01</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+          <li>
+            <label>I butchered android</label>
+            <description>I butchered an android</description>
+            <baseMoodEffect>0</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+    
+      <ThoughtDef>
+        <defName>OKA_KnowButcheredAndroid</defName>
+        <durationDays>0.01</durationDays>
+        <stackLimit>1</stackLimit>
+        <doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+        <stages>
+          <li>
+            <label>we butchered an android</label>
+            <description>We butchered an android.</description>
+            <baseMoodEffect>0</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+
+</Defs>

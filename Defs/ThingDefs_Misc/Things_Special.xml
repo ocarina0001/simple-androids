@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="OKA_AndroidSpawnerBase" Abstract="True">
+        <description>Hi. If you're reading this in-game without purposefully trying to see what this item says, please report it to the GitHub.</description>
+        <graphicData>
+            <texPath>OKA/Things/Item/Invisible</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.001</Mass>
+        </statBases>
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
+        <category>Building</category>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <selectable>true</selectable>
+        <drawerType>MapMeshOnly</drawerType>
+        <repairEffect>Repair</repairEffect>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+        <rotatable>false</rotatable>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0.5</fillPercent>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <uiIconScale>0.65</uiIconScale>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidSpawnerBase">
+        <defName>OKA_RankOneAndroidSpawner</defName>
+        <label>R1 android</label>
+        <thingClass>AndroidSpawner.RankOneAndroidSpawner</thingClass>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+                <Intellectual>6</Intellectual>
+            </skillRequirements>
+            <workAmount>1000</workAmount>
+        </recipeMaker>
+        <costList> <!-- 572 -->
+            <Steel>200</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidSpawnerBase">
+        <defName>OKA_RankTwoAndroidSpawner</defName>
+        <label>R2 android</label>
+        <thingClass>AndroidSpawner.RankTwoAndroidSpawner</thingClass>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+                <Intellectual>8</Intellectual>
+            </skillRequirements>
+            <workAmount>2000</workAmount>
+        </recipeMaker>
+        <costList> <!-- 1426 -->
+            <Steel>300</Steel>
+            <Gold>2</Gold>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidSpawnerBase">
+        <defName>OKA_RankThreeAndroidSpawner</defName>
+        <label>R3 android</label>
+        <thingClass>AndroidSpawner.RankThreeAndroidSpawner</thingClass>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+                <Intellectual>12</Intellectual>
+            </skillRequirements>
+            <workAmount>3000</workAmount>
+        </recipeMaker>
+        <costList> <!-- 2800 -->
+            <Steel>400</Steel>
+            <Gold>3</Gold>
+            <Uranium>30</Uranium>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidSpawnerBase">
+        <defName>OKA_RankFourAndroidSpawner</defName>
+        <label>R4 android</label>
+        <thingClass>AndroidSpawner.RankFourAndroidSpawner</thingClass>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>15</Crafting>
+                <Intellectual>15</Intellectual>
+            </skillRequirements>
+            <workAmount>4000</workAmount>
+        </recipeMaker>
+        <costList> <!-- 9094 -->
+            <Steel>500</Steel>
+            <Gold>6</Gold>
+            <Silver>6</Silver>
+            <Uranium>100</Uranium>
+            <Plasteel>100</Plasteel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+            <ComponentSpacer>8</ComponentSpacer>
+            <AIPersonaCore>1</AIPersonaCore>
+        </costList>
+    </ThingDef>
+    
+</Defs>

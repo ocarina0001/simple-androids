@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="OKA_AndroidUpgradeDrive" ParentName="BodyPartBase" Abstract="True">
+        <graphicData>
+            <texPath>OKA/Things/Item/Health/UpgradeDrive</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.80</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_AnimalUpgradeDrive</defName>
+        <label>upgrade drive (animals)</label>
+        <description>An upgrade drive with the knowledge of animal handling.</description>
+        <statBases>
+            <MarketValue>500</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(1,50,32)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Animals>5</Animals>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>550</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_ArtisticUpgradeDrive</defName>
+        <label>upgrade drive (artistic)</label>
+        <description>An upgrade drive with the knowledge of artistic techniques.</description>
+        <statBases>
+            <MarketValue>150</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(255,192,203)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Artistic>5</Artistic>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>200</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_ConstructionUpgradeDrive</defName>
+        <label>upgrade drive (construction)</label>
+        <description>An upgrade drive with the knowledge of constructing.</description>
+        <statBases>
+            <MarketValue>400</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(48, 87, 225)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Construction>5</Construction>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>450</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_CookingUpgradeDrive</defName>
+        <label>upgrade drive (cooking)</label>
+        <description>An upgrade drive with the knowledge of the culinary arts.</description>
+        <statBases>
+            <MarketValue>500</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(197,169,104)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Cooking>5</Cooking>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>550</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_CraftingUpgradeDrive</defName>
+        <label>upgrade drive (crafting)</label>
+        <description>An upgrade drive with the knowledge of craftsman techniques.</description>
+        <statBases>
+            <MarketValue>500</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(255, 165, 0)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>550</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_MedicalUpgradeDrive</defName>
+        <label>upgrade drive (medical)</label>
+        <description>An upgrade drive with the medical knowledge.</description>
+        <statBases>
+            <MarketValue>400</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(105,147,152)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Medicine>5</Medicine>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>450</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_MeleeUpgradeDrive</defName>
+        <label>upgrade drive (melee)</label>
+        <description>An upgrade drive with the knowledge of fighting techniques.</description>
+        <statBases>
+            <MarketValue>200</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(130,0,0)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Melee>5</Melee>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>250</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_MiningUpgradeDrive</defName>
+        <label>upgrade drive (mining)</label>
+        <description>An upgrade drive with the knowledge of mining.</description>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(165,42,42)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Mining>5</Mining>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>350</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_IntellectualUpgradeDrive</defName>
+        <label>upgrade drive (intellectual)</label>
+        <description>An upgrade drive with the knowledge of knowledge.</description>
+        <statBases>
+            <MarketValue>250</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Intellectual>10</Intellectual>
+            </skillRequirements>
+            <workAmount>300</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_PlantsUpgradeDrive</defName>
+        <label>upgrade drive (plants)</label>
+        <description>An upgrade drive with the knowledge of botany.</description>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(144,238,144)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Plants>5</Plants>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>350</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_SocialUpgradeDrive</defName>
+        <label>upgrade drive (social)</label>
+        <description>An upgrade drive with the knowledge of society.</description>
+        <statBases>
+            <MarketValue>400</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(230,230,250)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Social>5</Social>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>450</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OKA_AndroidUpgradeDrive">
+        <defName>OKA_ShootingUpgradeDrive</defName>
+        <label>upgrade drive (shooting)</label>
+        <description>An upgrade drive with the knowledge of weaponry.</description>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <graphicData>
+            <color>(200,0,0)</color>
+        </graphicData>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Shooting>5</Shooting>
+                <Intellectual>5</Intellectual>
+            </skillRequirements>
+            <workAmount>350</workAmount>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+    
+</Defs>
